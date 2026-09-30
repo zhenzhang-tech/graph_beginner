@@ -1,0 +1,6 @@
+FB15k-237: 14541 entities, 237 relations, train 272115, valid 17535, test 20466
+model=TransE dim=100 lr=0.001 epochs=10
+Epoch 001 | loss 0.7084 | val MRR 0.1928 Hits@10 0.3382 | 27.7s
+Epoch 005 | loss 0.1270 | val MRR 0.1892 Hits@10 0.3362 | 31.3s
+Epoch 010 | loss 0.1157 | val MRR 0.1843 Hits@10 0.3287 | 30.3s
+RESULT test MRR=0.1849 Hits@1=0.1175 Hits@3=0.1975 Hits@10=0.3157

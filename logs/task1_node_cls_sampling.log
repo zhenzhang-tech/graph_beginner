@@ -1,0 +1,12 @@
+model=GCN dataset=Cora hidden=64 layers=2 neighbors=[10, 10] batch=256 device=cuda
+Epoch 020 | loss 0.0126 | train 1.0000 | val 0.7740 | test 0.7900
+Epoch 040 | loss 0.0094 | train 1.0000 | val 0.7660 | test 0.7940
+Epoch 060 | loss 0.0077 | train 1.0000 | val 0.7720 | test 0.7980
+Epoch 080 | loss 0.0140 | train 1.0000 | val 0.7600 | test 0.7980
+Epoch 100 | loss 0.0125 | train 1.0000 | val 0.7620 | test 0.7960
+Epoch 120 | loss 0.0100 | train 1.0000 | val 0.7620 | test 0.8030
+Epoch 140 | loss 0.0081 | train 1.0000 | val 0.7560 | test 0.7980
+Epoch 160 | loss 0.0072 | train 1.0000 | val 0.7600 | test 0.7990
+Epoch 180 | loss 0.0089 | train 1.0000 | val 0.7500 | test 0.7960
+Epoch 200 | loss 0.0084 | train 1.0000 | val 0.7720 | test 0.7970
+RESULT best_val=0.8040 best_test=0.8100 time=1.79s

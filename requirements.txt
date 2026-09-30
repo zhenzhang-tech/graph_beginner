@@ -1,0 +1,15 @@
+# 运行环境：Python 3.9 / Windows
+# torch 需安装 CUDA 版（本机为 RTX 3050 Ti Laptop，cu118），安装命令：
+#   pip install torch==2.0.0 torchvision --index-url https://download.pytorch.org/whl/cu118
+torch==2.0.0
+torch_geometric==2.4.0
+# torch_scatter / torch_sparse 需从 data.pyg.org 安装（采样训练必需）：
+#   pip install torch_scatter torch_sparse -f https://data.pyg.org/whl/torch-2.0.0+cu118.html
+torch_scatter==2.1.2+pt20cu118
+torch_sparse==0.6.18+pt20cu118
+numpy==1.24.4
+scikit-learn==1.2.2
+pandas==1.5.3
+matplotlib
+tqdm
+networkx

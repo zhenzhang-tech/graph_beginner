@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Claude 内部目录
+.claude/
+
+# 旧下载文件夹
+graph_beginner-main/
+
+# 数据缓存（外部英文路径，不提交）
+/graph_data/
+
+# 系统文件
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+model=GCN dataset=PROTEINS pool=mean hidden=64 layers=2 device=cuda
+Epoch 020 | loss 0.6257 | val 0.6667 | test 0.7321
+Epoch 040 | loss 0.6144 | val 0.6306 | test 0.6964
+Epoch 060 | loss 0.6274 | val 0.7027 | test 0.7946
+Epoch 080 | loss 0.6161 | val 0.7207 | test 0.7946
+Epoch 100 | loss 0.6115 | val 0.7207 | test 0.7946
+Epoch 120 | loss 0.6044 | val 0.6396 | test 0.7143
+Epoch 140 | loss 0.6188 | val 0.6847 | test 0.7857
+Epoch 160 | loss 0.6085 | val 0.6847 | test 0.7679
+Epoch 180 | loss 0.6187 | val 0.6937 | test 0.7857
+Epoch 200 | loss 0.6019 | val 0.6847 | test 0.7768
+RESULT best_val=0.7297 best_test=0.8036 time=36.78s
